@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/get_started_layout"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    android:padding="@dimen/main_layout_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/img_item_height"
+        android:padding="5dp"
+        android:layout_marginTop="@dimen/top_bottom_margin"
+        android:src="@drawable/logo_new"
+        android:contentDescription="LOGO" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginLeft="@dimen/right_left_margin"
+        android:layout_marginRight="@dimen/right_left_margin">
+
+<!--    https://github.com/rosenpin/fading-text-view-->
+
+        <com.tomer.fadingtextview.FadingTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_item_height"
+            android:fontFamily="@font/maven_pro"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorWhite"
+            app:timeout="2000"
+            app:texts="@array/get_started_texts1" />
+
+        <com.tomer.fadingtextview.FadingTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_item_height"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/maven_pro"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/colorWhite"
+            app:timeout="2000"
+            app:texts="@array/get_started_texts2" />
+
+
+        <Button
+            android:id="@+id/btnGetStarted"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_item_height"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_button"
+            android:fontFamily="@font/maven_pro"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/get_started"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/medium_item_height"
+            android:layout_marginBottom="@dimen/top_bottom_margin"
+            android:fontFamily="@font/maven_pro"
+            android:text="@string/txtSignin"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="get_started_texts1">
+        <item>Find your perfect car</item>
+        <item>Sell your car</item>
+        <item>Easily compare</item>
+        <item>Buy with confidence</item>
+    </string-array>
+
+    <string-array name="get_started_texts2">
+        <item>Search BDs largest choice of brand new and used cars</item>
+        <item>Put your car up for sale without any hassle</item>
+        <item>To help you decide compare your saved cars side-by-side</item>
+        <item>Read the latest reviews from like minded car owners</item>
+    </string-array>
+
+
+</resources>

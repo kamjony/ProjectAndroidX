@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_buy"
+        android:title="Buy"/>
+<!--        android:icon="@drawable/ic_search" />-->
+    <item android:id="@+id/action_sell"
+        android:title="Sell"/>
+<!--        android:icon="@drawable/ic_add" />-->
+    <item android:id="@+id/action_saved"
+        android:title="Saved"/>
+<!--        android:icon="@drawable/ic_action_navigation_menu" />-->
+    <item android:id="@+id/action_account"
+        android:title="Account"/>
+</menu>

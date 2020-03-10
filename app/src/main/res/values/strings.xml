@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">CarTrader</string>
+
+    <string name="facebook_app_id">[APP_ID]</string>
+    <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
+
+    <string name="password_info">Your password must be eight characters or more and contain at least one letter or special character</string>
+    <string name="TCtext">By registering, you agree to our terms of use and privacy policy</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="pass">Password</string>
+    <string name="email_hint">youremail@email.com</string>
+    <string name="email">Email</string>
+    <string name="or">-----or-----</string>
+    <string name="fb_btn_String">Continue with Facebook</string>
+    <string name="google_btn_String">Continue with Google</string>
+    <string name="reg">Register</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="forgotten_password">Forgotten password</string>
+    <string name="txtSignin">Have an account? Sign in</string>
+    <string name="get_started">GET STARTED</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all">All</string>
+    <string name="create_advert">Create your advert</string>
+    <string name="advert_info">Start by selecting photos from your library or taking pictures of your car.</string>
+    <string name="select_photos">Select photos</string>
+    <string name="add_car_detail">Add your car to get reminders for dates like license reg</string>
+    <string name="add_your_car">Add your car</string>
+    <string name="add_car">Add Car</string>
+    <string name="sell_fast">Sell fast on Car Trader</string>
+    <string name="reach_more_buyers">Reach more buyers by selling with us in 3 simple steps</string>
+    <string name="alert_settings">Alert Settings</string>
+    <string name="alert_set_info">Decide when and how we send you alerts for buying, selling, and vehicle alerts</string>
+    <string name="about_app">About this app</string>
+
+</resources>
