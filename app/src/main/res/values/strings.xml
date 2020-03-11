@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">CarTrader</string>
 
-    <string name="facebook_app_id">[APP_ID]</string>
-    <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
+    <string name="facebook_app_id">1855356404595766</string>
+    <string name="fb_login_protocol_scheme">fb1855356404595766</string>
 
     <string name="password_info">Your password must be eight characters or more and contain at least one letter or special character</string>
     <string name="TCtext">By registering, you agree to our terms of use and privacy policy</string>

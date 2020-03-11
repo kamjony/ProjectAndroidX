@@ -133,14 +133,36 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/signedInTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signed in as:"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/userNameTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/userNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/userEmailTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/userEmailTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="youremail@example.com"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@id/btnAccountSignIn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnAccountSignIn"
