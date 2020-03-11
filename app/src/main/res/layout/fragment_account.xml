@@ -133,8 +133,17 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     </LinearLayout>
+    <TextView
+        android:id="@+id/userEmailTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="youremail@example.com"
+        app:layout_constraintBottom_toTopOf="@id/btnAccountSignIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <Button
+        android:id="@+id/btnAccountSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/account_item_margin_big"

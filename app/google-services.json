@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "322712092866",
+    "firebase_url": "https://cartrader-dfa84.firebaseio.com",
+    "project_id": "cartrader-dfa84",
+    "storage_bucket": "cartrader-dfa84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322712092866:android:d83f053bac9a19dbdf3b5b",
+        "android_client_info": {
+          "package_name": "com.example.cartrader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322712092866-abr0j9n13ea7l44k481639jt75cvkceu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApkzuKhK8fGLE2iGLYSuqNlKdolD6sfmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322712092866-abr0j9n13ea7l44k481639jt75cvkceu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
