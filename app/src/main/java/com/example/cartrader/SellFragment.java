@@ -37,7 +37,7 @@ public class SellFragment extends Fragment {
         btnSelectPhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getActivity(),SellImageGallery.class);
+                Intent i = new Intent(getActivity(), SellAddImageActivity.class);
                 startActivity(i);
             }
         });

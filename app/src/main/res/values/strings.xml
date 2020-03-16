@@ -35,4 +35,10 @@
     <string name="alert_set_info">Decide when and how we send you alerts for buying, selling, and vehicle alerts</string>
     <string name="about_app">About this app</string>
 
+
+    <string name="customGallery">Custom Gallery</string>
+    <string name="mainTitle">Select MultipleImages From Gallery</string>
+    <string name="openCustomGallery">Open Custom Gallery</string>
+    <string name="selectedImages">Selected Images will display below</string>
+
 </resources>

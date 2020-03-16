@@ -25,11 +25,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         container = (LinearLayout) findViewById(R.id.main_fragment_container);
         mBottomNavigationView = findViewById(R.id.navigation);
-
-
 
         //replace default fragment
         replaceFragment(new BuyFragment());
